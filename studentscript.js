@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			<div class="image-guide">
             <h3>План помещений АСЦ (Коломяжский д. 21, 2 этаж)</h3>
             <div class="guide-image-container">
-                <img src="https://raw.githubusercontent.com/mrgvozd/simcenter/refs/heads/main/site/Plan-simcenter.png" class="guide-image">
+                <img src="https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/Plan-simcenter.png" class="guide-image">
 			</div>
 			</div>
 		`,
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			<div class="image-guide">
             <h3>План помещений НОК (Коломяжский д. 25, 4 корп. 2 этаж)</h3>
             <div class="guide-image-container">
-                <img src="https://raw.githubusercontent.com/mrgvozd/simcenter/refs/heads/main/site/Plan-nok.png" class="guide-image">
+                <img src="https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/Plan-nok.png" class="guide-image">
 			</div>
 			</div>
 		`,
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			<div class="image-guide">
             <h3>План помещений п. Солнечное, к. 7, 3 этаж </h3>
             <div class="guide-image-container">
-                <img src="https://raw.githubusercontent.com/mrgvozd/simcenter/refs/heads/main/site/Plan-soln.jpg" class="guide-image">
+                <img src="https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/Plan-soln.jpg" class="guide-image">
 			</div>
 			</div>
 		`
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	
 	// Загрузка данных из JSON
 	async function loadData() {
-		const urls = ['data.json', '../data.json','https://simcenter.netlify.app/data.json', 'https://raw.githubusercontent.com/mrgvozd/simcenter/refs/heads/main/site/data.json'];
+		const urls = ['data.json', '../data.json','https://simcenter.netlify.app/data.json', 'https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/data.json'];
 		
 		for (let url of urls) {
 			try {
