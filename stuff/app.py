@@ -19,7 +19,8 @@ df = df.rename(columns={header : 'datentime'})
 df['datentime'] = df['datentime'].ffill()
 df['Время'] = df['Время'].ffill()
 df['ППС'] = df['ППС'].ffill()
-
+df['каб'] = df['каб'].ffill()
+df['Тема'] = df['Тема'].ffill()
 df['ППС'] = df['ППС'].replace(to_replace="\(.*\)",value="", regex=True)
 
 #аудитории в солнечном
@@ -31,6 +32,7 @@ except ValueError as ve:
 
 for idx, row in df.iterrows():
     try:
+        continue
         group_val = int(row['№ гр.'])
         if 100 <= group_val <= 199:
             df.at[idx, 'каб'] = 'Солнечное, 3.10'
