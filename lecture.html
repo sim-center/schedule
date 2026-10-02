@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание лекций</title>
+    <link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- Верхнее меню -->
+	<nav class="top-nav">
+		<div class="nav-container">
+			<div class="nav-tabs">
+				<button class="nav-tab" data-tab="info">ℹ️ О расписании</button>
+				<button class="nav-tab" data-tab="help">❓ Помощь</button>
+				<button class="nav-tab" data-tab="contacts">📞 Контакты</button>
+				<button class="nav-tab" data-tab="asc">⚙ План АСЦ</button>
+				<button class="nav-tab" data-tab="soln">⚙ План Солнечное</button>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Всплывающие окна -->
+	<div class="modal-overlay" id="modalOverlay">
+		<div class="modal-content">
+			<button class="modal-close">&times;</button>
+			<div class="modal-body">
+				<!-- Контент будет подгружаться динамически -->
+			</div>
+		</div>
+	</div>
+    <div class="container">
+        <h1>Расписание <i>лекций</i> в Симуляционном центре</h1>
+		
+		 <div class="filters">
+            <input type="text" id="filter-group" placeholder="Фильтр по группе">
+        </div>
+		
+        <table id="schedule-table">
+            <thead>
+                <tr>
+					<th>День</th>
+                    <th>Время</th>
+                    <th>Преподаватель</th>
+                    <th>Аудитория</th>
+                    <th>Группы</th>
+                    <th>Тема</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Данные будут добавлены с помощью JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="lecturescript.js"></script>
+</body>
+</html>
