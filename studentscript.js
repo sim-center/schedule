@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			<div class="image-guide">
             <h3>План помещений АСЦ (Коломяжский д. 21, 2 этаж)</h3>
             <div class="guide-image-container">
-                <img src="https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/Plan-simcenter.png" class="guide-image">
+                <img src="https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/img/Plan-simcenter.png" class="guide-image">
 			</div>
 			</div>
 		`,
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			<div class="image-guide">
             <h3>План помещений НОК (Коломяжский д. 25, 4 корп. 2 этаж)</h3>
             <div class="guide-image-container">
-                <img src="https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/Plan-nok.png" class="guide-image">
+                <img src="https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/img/Plan-nok.png" class="guide-image">
 			</div>
 			</div>
 		`,
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			<div class="image-guide">
             <h3>План помещений п. Солнечное, к. 7, 3 этаж </h3>
             <div class="guide-image-container">
-                <img src="https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/Plan-soln.jpg" class="guide-image">
+                <img src="https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/img/Plan-soln.jpg" class="guide-image">
 			</div>
 			</div>
 		`
