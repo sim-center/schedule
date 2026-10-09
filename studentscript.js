@@ -124,7 +124,9 @@ document.addEventListener('DOMContentLoaded', function () {
 	
 	// Загрузка данных из JSON
 	async function loadData() {
-		const urls = ['data.json', '../data.json','https://simcenter.netlify.app/data.json', 'https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/data.json'];
+		const dataSource = document.body.dataset.source || 'data.json';
+		const urls = [dataSource, `../${dataSource}`];
+		//const urls = ['data.json', '../data.json','https://simcenter.netlify.app/data.json', 'https://raw.githubusercontent.com/sim-center/schedule/refs/heads/main/data.json'];
 		
 		for (let url of urls) {
 			try {
